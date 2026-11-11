@@ -1,0 +1,6 @@
+{
+  "questions": 15,
+  "mean_source_precision": 0.622,
+  "mean_source_recall": 0.733,
+  "phrase_or_abstention_pass_rate": 0.6
+}

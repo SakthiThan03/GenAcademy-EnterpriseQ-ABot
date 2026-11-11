@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "question": "How many PTO days do full-time employees receive?",
+    "expected_sources": [
+      "01_employee_handbook.md"
+    ],
+    "expected_phrase": "20 days",
+    "category": "direct"
+  },
+  {
+    "id": 2,
+    "question": "How early must I request vacation?",
+    "expected_sources": [
+      "01_employee_handbook.md"
+    ],
+    "expected_phrase": "five business days",
+    "category": "paraphrase"
+  },
+  {
+    "id": 3,
+    "question": "How many sick days do we get?",
+    "expected_sources": [
+      "01_employee_handbook.md"
+    ],
+    "expected_phrase": "10 paid sick days",
+    "category": "direct"
+  },
+  {
+    "id": 4,
+    "question": "Can I work from home three days a week?",
+    "expected_sources": [
+      "01_employee_handbook.md"
+    ],
+    "expected_phrase": "three days",
+    "category": "direct"
+  },
+  {
+    "id": 5,
+    "question": "What is the password length requirement?",
+    "expected_sources": [
+      "02_it_security.md"
+    ],
+    "expected_phrase": "14 characters",
+    "category": "direct"
+  },
+  {
+    "id": 6,
+    "question": "How soon must phishing be reported?",
+    "expected_sources": [
+      "02_it_security.md"
+    ],
+    "expected_phrase": "one hour",
+    "category": "direct"
+  },
+  {
+    "id": 7,
+    "question": "What is the meal reimbursement limit?",
+    "expected_sources": [
+      "03_expense_travel.md"
+    ],
+    "expected_phrase": "$75",
+    "category": "direct"
+  },
+  {
+    "id": 8,
+    "question": "How much can a hotel cost without extra approval?",
+    "expected_sources": [
+      "03_expense_travel.md"
+    ],
+    "expected_phrase": "$220",
+    "category": "direct"
+  },
+  {
+    "id": 9,
+    "question": "What is the annual business gift limit?",
+    "expected_sources": [
+      "04_code_of_conduct.md"
+    ],
+    "expected_phrase": "$50",
+    "category": "direct"
+  },
+  {
+    "id": 10,
+    "question": "What training do new hires complete in the first week?",
+    "expected_sources": [
+      "05_onboarding.md"
+    ],
+    "expected_phrase": "security awareness",
+    "category": "direct"
+  },
+  {
+    "id": 11,
+    "question": "How long are customer support tickets retained?",
+    "expected_sources": [
+      "06_data_retention.md"
+    ],
+    "expected_phrase": "24 months",
+    "category": "direct"
+  },
+  {
+    "id": 12,
+    "question": "What must a new remote employee do for secure access?",
+    "expected_sources": [
+      "05_onboarding.md",
+      "02_it_security.md"
+    ],
+    "expected_phrase": "multi-factor",
+    "category": "cross-document"
+  },
+  {
+    "id": 13,
+    "question": "Can I buy a laptop and expense it?",
+    "expected_sources": [
+      "03_expense_travel.md"
+    ],
+    "expected_phrase": "not reimbursable",
+    "category": "ambiguous"
+  },
+  {
+    "id": 14,
+    "question": "What is the best benefit?",
+    "expected_sources": [
+      "01_employee_handbook.md"
+    ],
+    "expected_phrase": null,
+    "category": "ambiguous-subjective"
+  },
+  {
+    "id": 15,
+    "question": "What is the company stock ticker symbol? ",
+    "expected_sources": [],
+    "expected_phrase": null,
+    "category": "unanswerable"
+  }
+]
